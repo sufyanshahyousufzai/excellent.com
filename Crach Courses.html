@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .home-courses{
+            width: 100%;
+            height: 550px;
+            /* border: 1px solid black; */
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .courses-home-top-text{
+            height: 100px;
+            width: 70%;
+            text-align: center;
+            margin: auto;
+        }
+        .courses-home-images{
+            height: 500px;
+            width: 100%;
+            /* border: 1px solid black; */
+            margin-top: 20px;
+        }
+        .courses-item{
+            height: 300px;
+            width: 22%;
+            float: left;
+            margin-right: 1.4%;
+        }
+        .margin{
+            margin-left: 3.5%;
+            
+        }
+        .courses-item .courses-image{
+            width: 100%;
+            height: 100%;
+        }
+        .courses-item .courses-image img{
+            width: 100%;
+            height: 100%;
+        }
+        .courses-item .txt-below{
+            height: 110px;
+            width: 100%;
+            background: #01d7a7;
+            margin-top: -19px;
+        }
+        .courses-item .txt-below h3{
+            text-align: center;
+            padding-top: 12px;
+
+        }
+        .txt-below #btn{
+            width: 100%;
+            height: 50px;
+            margin-top: 7px;
+            background: #dbff0e;
+            font-size: 20px;
+            color: blue;
+        }
+        .txt-below #btn:hover{
+            background: rgb(72, 72, 228);
+            color: white;
+            transition: 0.3 all;
+        }
+    </style>
+</head>
+<body>
+    <div class="home-courses">
+        <div class="courses-home-top-text">
+            <h1>Excellent Crash Courses</h1>
+            <p>Excllent Coaching provides you short term courses of 3-6 monhts including Freelancing, Digital Marketinng,
+                Computer Courses, Language courses, Photography and many others. </p>
+            
+        </div>
+        <div class="courses-home-images">
+            <div class="courses-item margin">
+                <div class="courses-image ">
+                <img src="eng.jpg">
+                </div>
+                <div class="txt-below">
+                <h3>Language Course</h3>
+                <input type="button" id="btn" value="See Details" onClick="location.href='#'">
+            </div>
+            </div>
+            <div class="courses-item">
+                    <div class="courses-image">
+                    <img src="computer.jpg">
+                    </div>
+                <div class="txt-below">
+                <h3>Computer Courses</h3>
+                <input type="button" id="btn" value="See Details" onClick="location.href='#'">
+                </div>
+           </div>
+            <div class="courses-item">
+                <div class="courses-image">
+                    <img src="photography.jpg">
+                </div>
+                <div class="txt-below">
+                <h3>photography Courses</h3>
+                <input type="button" id="btn" value="See Details" onClick="location.href='#'">
+                </div>
+            </div>
+            <div class="courses-item">
+                <div class="courses-image">
+                    <img src="digital.webp">
+                </div>
+                <div class="txt-below">
+                <h3>photography Courses</h3>
+                <input type="button" id="btn" value="See Details" onClick="location.href='#'">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

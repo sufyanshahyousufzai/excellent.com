@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellent Coaching Center</title>
+    <!-- This is Link to Register Form CSS -->
+    <link rel="stylesheet" href="CSS/Get Enroll.css">
+    
+</head>
+<body>
+    <!-- This is Admission From -->
+   <div class="Admission-form">
+       <div class="form-box">
+           <div class="button-box">
+               <div id="btn"></div>
+               <button type="button" class="toggle-btn" onclick="login()"> Log In </button>
+               <button type="button" class="toggle-btn" onclick="register()"> Register </button>
+           </div>
+           <div class="social-icons">
+             <a href="https://www.facebook.com/APTECH.Pakistan" target="_Blank"><img src="Images/fb.png"></a>
+             <a href="https://twitter.com/aptechpakistan?lang=en" target="_blank"><img src="Images/tw.png"></a>
+             <a href="https://aptech-education.com.pk/" target="_blank"><img src="Images/gp.png"></a>
+           </div>
+           <form id="login" class="input-group">
+               <input type="email" class="input-field" placeholder="User Id" repuired>
+               <input type="text" class="input-field" placeholder="Enter Password" 
+               repuired>
+               <input type="checkbox" class="chech-box"><span class="span-rememberpassword"> Remember Password </span>
+               <button type="submit" class="submit-btn"> Log in </button>
+           </form>
+           <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id" repuired>
+            <input type="email" class="input-field" placeholder="Email Id" repuired>
+            <input type="text" class="input-field" placeholder="Enter Password" 
+            repuired>
+            <input type="checkbox" class="chech-box"><span class="span-rememberpassword"> I agree to the terms &
+                Condotions </span>
+            <button type="submit" class="submit-btn"> Log in </button>
+        </form>
+       </div>
+   </div>
+   <!-- Admission Form End -->
+   <!-- This is Script of Admission Form -->
+   <script>
+       var x = document.getElementById("login");
+       var y = document.getElementById("register");
+       var z = document.getElementById("btn");
+
+       function register(){
+           x.style.left = "-400px";
+           y.style.left = "50px";
+           z.style.left = "110px";
+       }
+
+   </script>
+   <!-- Script of Admission Form is End -->
+</body>
+</html>
